@@ -40,6 +40,7 @@ Subject Files
 *  selected_names --> character list with Names of the Features
 *  activity_labels --> data frame with the labels for different activities
 
+#Steps
 *  Merges test data and trainning data to data1
 *  Indentifies the mean and std columns to data2
 *  Uses selected_names to extract the measurements on the mean and standard deviation for each measurement
