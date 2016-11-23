@@ -4,16 +4,24 @@ This document describes the code inside run_analysis.R.
 
 #Libraries
 data.table
+
 plyr
 
 #Functions
 read.table --> Read in table format and creates a data frame from it
+
 rbind --> Merge data tables by rows
+
 cbind --> Merge columns to get the data frame for all data together
+
 grep --> Subset by measurements on the mean and standard deviation
+
 subset --> Subset the data frame by selected names of Features
+
 gsub --> Label Names of Features using descriptive variable names
+
 aggregate --> Create independent tidy data set with the average of each variable for each activity and each subject
+
 write.table --> Print final data frame to a file "tidy_data.txt"
 
 #Data Files
