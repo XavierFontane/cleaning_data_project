@@ -26,27 +26,44 @@ write.table --> Print final data frame to a file "tidy_data.txt"
 
 #Data Files
 
-Features --> UCI HAR Dataset/train/X_train.txt 
+Features --> UCI HAR Dataset/train/X_train.txt
+
          --> UCI HAR Dataset/test/X_test.txt
+         
 Activity Data --> UCI HAR Dataset/train/Y_train.txt 
+
               --> UCI HAR Dataset/test/y_test.txt
+              
 Subject Files --> UCI HAR Dataset/train/subject_train.txt 
+
               --> UCI HAR Dataset/test/subject_test.txt
+              
 
 #Variables
 subject --> data frame with Subject Data
+
 activity --> data frame with Activity Data
+
 features --> data frame with Features
+
 data1 --> data frame with the data from subject, activity and features
+
 data2 --> data frame with the measurements on the mean and standard deviation for each measurement
+
 data3 --> final data frame with tidy data
+
 selected_names --> character list with Names of the Features
+
 activity_labels --> data frame with the labels for different activities
 
 Merges test data and trainning data to data1
+
 Indentifies the mean and std columns to data2
+
 Uses selected_names to extract the measurements on the mean and standard deviation for each measurement
+
 Uses activity_labels to name labels of activity
+
 Final data frame data3 looks like
 
 >head(data3[, 1:3], n=5)
