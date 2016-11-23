@@ -70,17 +70,11 @@ Uses activity_labels to name labels of activity
 Final data frame data3 looks like
 
 >head(data3[, 1:3], n=5)
-
-    subject activity timeBodyAccelerometer-mean()-X
-    
-1         1        1                      0.2773308
-
-31        1        2                      0.2554617
-
-61        1        3                      0.2891883
-
-91        1        4                      0.2612376
-
-121       1        5                      0.2789176
+>    subject activity timeBodyAccelerometer-mean()-X
+>1         1        1                      0.2773308
+>31        1        2                      0.2554617
+>61        1        3                      0.2891883
+>91        1        4                      0.2612376
+>121       1        5                      0.2789176
 
 Writing final data to TXT file
